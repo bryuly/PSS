@@ -40,6 +40,8 @@ You can either edit the script in github and re-run all commands or navigate to 
 
     cd /usr/local/bin/
 
+then
+
     nano Pi-hole_SafeSearch.sh
 
 
@@ -51,8 +53,11 @@ Uninstall info I haven't figured out but to disable use the following command.
 1. `Pi-hole_SafeSearch.sh -d`
 
 You also can run the following commands to remove the script from the folder location.
-   `cd /usr/local/bin/`
-   `rm Pi-hole_SafeSearch.sh`
+
+    cd /usr/local/bin/
+then
+
+    rm Pi-hole_SafeSearch.sh
 
 If you wish to not enforce SafeSearch on your network anymore, please follow the steps below to completely uninstall PSS
 1. `Pi-hole_SafeSearch.sh --disable`
