@@ -45,6 +45,8 @@ To save hit ctrl+x
 
 
 # Uninstallation (not working??)
+Uninstall info I haven't figured out but to disable use the following command.
+1. `Pi-hole_SafeSearch.sh -d`
 
 If you wish to not enforce SafeSearch on your network anymore, please follow the steps below to completely uninstall PSS
 1. `Pi-hole_SafeSearch.sh --disable`
